@@ -17,21 +17,26 @@ body {
 }
 
 // Headings
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
     margin: 0;
-    font-weight: 500;
+    font-weight: 400;
+
     &.lg-heading {
         font-size: 5rem;
         //text-transform: uppercase;
-        
     }
 
     &.sm-heading {
         margin-bottom: 2rem;
         padding: 0.2rem 1rem;
         font-size: 1.33rem;
-        background: rgba(lighten($primary-color, 2), 1);
+        background: rgba(lighten($primary-color, 2), 0.5);
     }
+}
+
+h5 {
+    font-style: italic;
+    margin-top: 0.3rem;
 }
 
 a {
@@ -112,6 +117,7 @@ main {
     .job {
         background: lighten($primary-color, 5);
         padding: 0.5rem;
+        border-radius: 0.3rem 0.3rem 0 0;
         border-bottom: $secondary-color 5px solid;
     }
 }
@@ -125,6 +131,7 @@ main {
     img {
         width: 100%;
         border: 3px #fff solid;
+        border-radius: 0.3rem;
 
         &:hover {
             opacity: 0.5;
@@ -145,6 +152,7 @@ main {
     div {
         font-size: 1.5rem;
         border: 3px #fff solid;
+        border-radius: 0.5rem;
         padding: 1.5rem 2.5rem;
         margin-bottom: 3rem;
         @include easeOut;
@@ -175,14 +183,17 @@ main {
 
 .btn-dark {
     @extend .btn;
-    background: darken($primary-color, 50);
+    background: darken($primary-color, 10);
     color: white;
+    border-radius: 0.3rem;
 }
 
 .btn-light {
     @extend .btn;
-    background: lighten($primary-color, 50);
+    background: lighten($primary-color, 45);
     color: #2a323d;
+    border-radius: 0.25rem;
+
 }
 
 //Footer

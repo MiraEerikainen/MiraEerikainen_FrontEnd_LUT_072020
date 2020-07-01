@@ -9,6 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
+    border-radius: 1.5px;
     background: #ffff;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
@@ -116,16 +117,20 @@ body {
       z-index: -1;
       background: rgba(42, 50, 61, 0.8); }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
   margin: 0;
-  font-weight: 500; }
-  h1.lg-heading, h2.lg-heading, h3.lg-heading {
+  font-weight: 400; }
+  h1.lg-heading, h2.lg-heading, h3.lg-heading, h4.lg-heading, h5.lg-heading {
     font-size: 5rem; }
-  h1.sm-heading, h2.sm-heading, h3.sm-heading {
+  h1.sm-heading, h2.sm-heading, h3.sm-heading, h4.sm-heading, h5.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     font-size: 1.33rem;
-    background: #2e3743; }
+    background: rgba(46, 55, 67, 0.5); }
+
+h5 {
+  font-style: italic;
+  margin-top: 0.3rem; }
 
 a {
   color: #ffff;
@@ -178,6 +183,7 @@ main {
   .about-info .job {
     background: #343e4c;
     padding: 0.5rem;
+    border-radius: 0.3rem 0.3rem 0 0;
     border-bottom: #30bff7 5px solid; }
 
 .projects {
@@ -186,7 +192,8 @@ main {
   grid-gap: 0.7rem; }
   .projects img {
     width: 100%;
-    border: 3px #fff solid; }
+    border: 3px #fff solid;
+    border-radius: 0.3rem; }
     .projects img:hover {
       opacity: 0.5;
       border-color: #30bff7;
@@ -201,6 +208,7 @@ main {
   .boxes div {
     font-size: 1.5rem;
     border: 3px #fff solid;
+    border-radius: 0.5rem;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }
@@ -221,12 +229,14 @@ main {
     color: #000000; }
 
 .btn-dark {
-  background: black;
-  color: white; }
+  background: #15191f;
+  color: white;
+  border-radius: 0.3rem; }
 
 .btn-light {
-  background: #a5b1c1;
-  color: #2a323d; }
+  background: #96a4b7;
+  color: #2a323d;
+  border-radius: 0.25rem; }
 
 #main-footer {
   text-align: center;
