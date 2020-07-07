@@ -273,7 +273,7 @@ main {
   .menu-nav {
     height: 75vh;
     transform: translate3d(100%, 0, 0);
-    font-size: 25px; }
+    font-size: 20px; }
   .menu-branding {
     height: 25vh;
     transform: translate3d(-100%, 0, 0); }
@@ -295,6 +295,8 @@ main {
   .lg-heading {
     line-height: 1;
     margin-bottom: 1rem; }
+  .menu-nav {
+    font-size: 15px; }
   .menu-branding .portrait {
     background: url(../img/Mira_fb_125_crop.jpg);
     width: 125px;

@@ -42,7 +42,7 @@
     .menu-nav {
         height: 75vh;
         transform: translate3d(100%, 0, 0);
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .menu-branding {
@@ -84,6 +84,10 @@
     .lg-heading {
         line-height: 1;
         margin-bottom: 1rem;
+    }
+
+    .menu-nav {
+        font-size: 15px;
     }
 
     .menu-branding {
