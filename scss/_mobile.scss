@@ -104,11 +104,17 @@
 @include mediaXs {
     main {
         .lg-heading {
-            font-size: 60px;
+            font-size: 54px;
         }
 
         .sm-heading {
             font-size: 22px;
+        }
+    }
+
+    .boxes {
+        div {
+            font-size: 0.8rem;
         }
     }
 }
