@@ -40,7 +40,7 @@
     overflow: hidden; }
   .menu-nav {
     margin: 0;
-    padding: 0rem 0rem 4rem 0rem;
+    padding: 0rem 0rem 2rem 0rem;
     background: #20262e;
     list-style: none;
     transform: translate3d(0, -100%, 0);
