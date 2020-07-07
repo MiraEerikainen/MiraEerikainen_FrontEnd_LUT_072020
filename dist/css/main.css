@@ -308,7 +308,8 @@ main {
   .boxes div {
     font-size: 1.5rem;
     border: 2px #fff solid;
-    padding: 0.3rem 0.5rem 0.3rem 0.5rem; } }
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+    margin-bottom: 2rem; } }
 
 @media screen and (max-width: 335px) {
   main .lg-heading {
