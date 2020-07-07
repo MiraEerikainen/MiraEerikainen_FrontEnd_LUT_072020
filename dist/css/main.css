@@ -304,11 +304,11 @@ main {
   .projects {
     grid-template-columns: 1fr; } }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 375px) {
   main .lg-heading {
-    font-size: 54px; }
+    font-size: 52px; }
   main .sm-heading {
-    font-size: 22px; }
+    font-size: 20px; }
   .boxes div {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     padding: 0.3rem 0.5rem 0.3rem 0.5rem; } }
