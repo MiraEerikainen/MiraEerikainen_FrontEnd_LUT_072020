@@ -304,14 +304,18 @@ main {
     min-height: 125px;
     min-width: 125px; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .boxes div {
+    font-size: 1.5rem;
+    border: 2px #fff solid;
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem; } }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 330px) {
   main .lg-heading {
     font-size: 52px; }
   main .sm-heading {
-    font-size: 25px; }
+    font-size: 26px; }
   .boxes div {
-    font-size: 1rem;
+    font-size: 1.25rem;
     border: 2px #fff solid;
     padding: 0.3rem 0.5rem 0.3rem 0.5rem; } }
