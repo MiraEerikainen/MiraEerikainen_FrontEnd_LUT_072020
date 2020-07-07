@@ -40,7 +40,7 @@
     overflow: hidden; }
   .menu-nav {
     margin: 0;
-    padding: 0;
+    padding: 0rem 0rem 4rem 0rem;
     background: #20262e;
     list-style: none;
     transform: translate3d(0, -100%, 0);
@@ -295,8 +295,6 @@ main {
   .lg-heading {
     line-height: 1;
     margin-bottom: 1rem; }
-  .menu-nav {
-    font-size: 20px; }
   .menu-branding .portrait {
     background: url(../img/Mira_fb_125_crop.jpg);
     width: 125px;
@@ -310,12 +308,12 @@ main {
     border: 2px #fff solid;
     padding: 0.3rem 0.5rem 0.3rem 0.5rem; } }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 335px) {
   main .lg-heading {
     font-size: 52px; }
   main .sm-heading {
     font-size: 26px; }
   .boxes div {
-    font-size: 1.15rem;
+    font-size: 1rem;
     border: 2px #fff solid;
     padding: 0.3rem 0.5rem 0.3rem 0.5rem; } }
