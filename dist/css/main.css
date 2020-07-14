@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5 {
   h1.sm-heading, h2.sm-heading, h3.sm-heading, h4.sm-heading, h5.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     background: rgba(46, 55, 67, 0.5); }
 
 h5 {
@@ -315,7 +315,13 @@ main {
   main .lg-heading {
     font-size: 52px; }
   main .sm-heading {
-    font-size: 26px; }
+    font-size: 24px; }
+  .menu-branding .portrait {
+    background: url(../img/Mira_fb_125_crop.jpg);
+    width: 120px;
+    height: 120px;
+    min-height: 120px;
+    min-width: 120px; }
   .boxes div {
     font-size: 1rem;
     border: 2px #fff solid;
