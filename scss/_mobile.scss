@@ -51,10 +51,10 @@
 
         .portrait {
             background: url(../img/Mira_fb_150_crop.jpg);
-            width: 150px;
-            height: 150px;
-            min-height: 150px;
-            min-width: 150px;
+            width: 145px;
+            height: 145px;
+            min-height: 145px;
+            min-width: 145px;
         }
     }
 
@@ -83,15 +83,6 @@
 
     .projects {
         grid-template-columns: 1fr;
-    }
-
-    .boxes {
-        div {
-            font-size: 1.5rem;
-            border: 2px #fff solid;
-            padding: 0.3rem 0.5rem 0.3rem 0.5rem;
-            margin-bottom: 1rem;
-        }
     }
 }
 
@@ -125,12 +116,11 @@
         }
     }
 
-
     .boxes {
         div {
             font-size: 1rem;
             border: 2px #fff solid;
-            padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+            margin-bottom: 1.5rem;
         }
     }
 }

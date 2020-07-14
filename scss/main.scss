@@ -153,13 +153,13 @@ main {
         font-size: 1.4rem;
         line-height: 1.3;
         border: 3px #fff solid;
-        border-radius: 0.5rem;
-        padding: 0.5rem 1rem 0.6rem 1rem;
+        border-radius: 0.4rem;
+        padding: 1rem 1.5rem 1.1rem 1.5rem;
         margin-bottom: 3rem;
         @include easeOut;
 
         &:hover {
-            padding: 0.3rem 1rem 0.4rem 1rem;
+            padding: 0.5rem 1rem 0.6rem 1rem;
             background: $secondary-color;
             color: set-text-color($secondary-color);
                 span {
