@@ -289,7 +289,7 @@ main {
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
   main {
     padding: 5rem 1.5rem 5rem 1.5rem; }
   .lg-heading {
