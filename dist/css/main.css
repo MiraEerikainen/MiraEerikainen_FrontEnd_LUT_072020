@@ -311,7 +311,7 @@ main {
     padding: 0.3rem 0.5rem 0.3rem 0.5rem;
     margin-bottom: 1rem; } }
 
-@media screen and (max-width: 335px) {
+@media screen and (max-width: 360px) {
   main .lg-heading {
     font-size: 52px; }
   main .sm-heading {
