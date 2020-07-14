@@ -25,7 +25,7 @@
         
         .lg-heading {
             line-height: 1.1;
-            margin-bottom: 1.3rem;
+            margin-bottom: 1.2rem;
         }
     }
     
@@ -51,10 +51,10 @@
 
         .portrait {
             background: url(../img/Mira_fb_150_crop.jpg);
-            width: 140px;
-            height: 140px;
-            min-height: 140px;
-            min-width: 140px;
+            width: 150px;
+            height: 150px;
+            min-height: 150px;
+            min-width: 150px;
         }
     }
 
@@ -81,15 +81,6 @@
         padding: 5rem 1.5rem 5rem 1.5rem;
     }
 
-    .lg-heading {
-        line-height: 1;
-        margin-bottom: 1rem;
-    }
-
-    .menu-nav {
-        font-size: 15px;
-    }
-
     .projects {
         grid-template-columns: 1fr;
     }
@@ -114,6 +105,26 @@
             font-size: 24px;
         }
     }
+
+    .menu-nav {
+        height: 70vh;
+        transform: translate3d(100%, 0, 0);
+        font-size: 20px;
+    }
+
+    .menu-branding {
+        height: 30vh;
+        transform: translate3d(-100%, 0, 0);
+
+        .portrait {
+            background: url(../img/Mira_fb_125_crop.jpg);
+            width: 125px;
+            height: 125px;
+            min-height: 125px;
+            min-width: 125px;
+        }
+    }
+
 
     .boxes {
         div {
