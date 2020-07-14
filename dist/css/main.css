@@ -318,10 +318,10 @@ main {
     font-size: 24px; }
   .menu-branding .portrait {
     background: url(../img/Mira_fb_125_crop.jpg);
-    width: 120px;
-    height: 120px;
-    min-height: 120px;
-    min-width: 120px; }
+    width: 115px;
+    height: 115px;
+    min-height: 115px;
+    min-width: 115px; }
   .boxes div {
     font-size: 1rem;
     border: 2px #fff solid;
