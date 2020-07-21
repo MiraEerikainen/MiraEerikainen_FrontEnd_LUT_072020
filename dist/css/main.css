@@ -25,7 +25,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.95;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -41,7 +40,7 @@
   .menu-nav {
     margin: 0;
     padding: 0rem 0rem 2rem 0rem;
-    background: #20262e;
+    background: rgba(32, 38, 46, 0.95);
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
@@ -50,7 +49,7 @@
   .menu-branding {
     margin: 0;
     padding: 0;
-    background: #343e4c;
+    background: rgba(42, 50, 61, 0.9);
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {

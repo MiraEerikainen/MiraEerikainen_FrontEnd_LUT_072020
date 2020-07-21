@@ -43,7 +43,6 @@
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: 0.95;
     visibility: hidden;
     
     &.show {
@@ -60,11 +59,12 @@
         height: 100vh;
         overflow: hidden;
     }
+
     // Navigaton side
     &-nav {
         margin: 0;
         padding: 0rem 0rem 2rem 0rem;
-        background: darken($primary-color, 5);
+        background: rgba(darken($primary-color, 5), 0.95);
         list-style: none;
         transform: translate3d(0, -100%, 0);
         @include easeOut;
@@ -80,7 +80,7 @@
     &-branding {
         margin: 0;
         padding: 0;
-        background: lighten($primary-color, 5);
+        background: rgba($primary-color, 0.9);
         transform: translate3d(0, 100%, 0);
         @include easeOut;
 
