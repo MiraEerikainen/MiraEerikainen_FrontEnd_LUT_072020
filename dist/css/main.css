@@ -49,7 +49,7 @@
   .menu-branding {
     margin: 0;
     padding: 0;
-    background: rgba(42, 50, 61, 0.9);
+    background: rgba(42, 50, 61, 0.95);
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
