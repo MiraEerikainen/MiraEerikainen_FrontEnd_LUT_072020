@@ -35,7 +35,6 @@
             }
         }
     }
-
 }
 
 // Menu Overlay
@@ -73,7 +72,6 @@
             // Slide in from top
             transform: translate3d(0,0,0);
         }
-
     }
 
     // Branding side
@@ -98,6 +96,7 @@
         }
     }
     
+    // Navigation side
     .nav-item {
         transform: translate3d(600px, 0, 0);
         @include easeOut;
@@ -109,10 +108,7 @@
 
         &.current > a {
             color: $secondary-color;
-
         }
-
-
     }
 
     .nav-link {
@@ -129,7 +125,6 @@
         &:hover {
             color: $secondary-color;
         }
-
     }
 }
 
