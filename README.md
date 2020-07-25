@@ -1,1 +1,0 @@
-This is my Responsive portfolio website project for LUT Front End module.
