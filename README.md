@@ -8,4 +8,4 @@ https://MiraEerikainen.github.io/MiraEerikainen_FrontEnd_LUT_072020
 The website was created using html5, Sass/SCC (e.g. CSS transitions, Sass Mixins, CSS Grids, CSS Flexboxes and lots of other stuff) and some Javascript for the menu button.
 
 To see how the website and responsiveness work in action, check this video out:
-
+xxx
